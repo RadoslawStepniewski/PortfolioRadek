@@ -12,7 +12,8 @@ body{
 /*Bar in header section*/
 
 header{
-    position: fixed;
+    /* position: fixed; */
+    height: 100%;
     left: 0;
     top: 0;
     width: 100%;
@@ -36,7 +37,7 @@ header{
     width: 78em;
 }
 .header-wrapper {
-    height: 100%;
+    height: 100vh;
 }
 
 /*------------------------------------------------------------*/
