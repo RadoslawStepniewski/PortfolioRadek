@@ -11,16 +11,16 @@ body{
 
 /*Bar in header section*/
 
-header{
-    /* position: fixed; */
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    -webkit-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-}
+/*header{*/
+    /*!* position: fixed; *!*/
+    /*height: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*z-index: 9999;*/
+    /*-webkit-transition: all 0.4s ease-out;*/
+    /*transition: all 0.4s ease-out;*/
+/*}*/
 .header-section-bar {
     position: fixed;
     left: 0;
@@ -91,6 +91,15 @@ header{
     transition: all 0.3s ease-out;
 }
 
+.bg-light{
+    /*visibility: hidden;*/
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-link{
+    text-align: center;
+}
 /*-------------------------------------------------------------*/
 
 /*Main in header section*/
