@@ -2,70 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Porfolio -Radosław Stępniewski">
-    <meta name="keywords" content="Portfolio , front-end developer, programista">
-    <meta name="author" content="Radosław Stępniewski">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <meta name="author" content="Radoslaw Stepniewski">
+    <!--Links-->
+
+    <!-- All CSS Plugins -->
+    <link rel="stylesheet" type="text/css" href="css/plugin.css">
+    <!-- Main CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Google Web Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
 
     <title>Portfolio</title>
-
 
 </head>
 
 <body>
 
-<header class="header-wrapper">
-    <div class="header-section-bar">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Creat.</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav--menu" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <div class="header-section-main" data-stellar-background-ratio="0.6">
-        <div class="header-main display-table">
-            <div class="header-main display-table-cell">
-                <div class="header-main-container">
-                    <div class="row">
-                        <div class="col-12 header-text-center">
-                            <div class="header-text">
-                                <p>Hi! My name is Radek</p>
-                                <h2>
-                                    <span class="typing"></span>
-                                </h2>
+<!-- Home & Menu Section Start -->
+<header id="home" class="home-section">
 
-                                <div class="header-main-button">
-                                    <a class="button button-style button-style-icon" href="#portfolio">View
-                                        Portfolio</a>
-                                </div>
+    <div class="header-top-area">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="logo">
+                        <a href="index-2.html">Creat.</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-9">
+                    <div class="navigation-menu">
+                        <div class="navbar">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a class="smoth-scroll" href="#home">Home <div class="ripple-wrapper"></div></a>
+                                    </li>
+                                    <li><a class="smoth-scroll" href="#about">About</a>
+                                    </li>
+                                    <li><a class="smoth-scroll" href="#skills">Portfolio</a>
+                                    </li>
+                                    <li><a class="smoth-scroll" href="#portfolio">Skills</a>
+                                    </li>
+                                    <li><a class="smoth-scroll" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -73,42 +67,48 @@
             </div>
         </div>
     </div>
-</header>
-<main>
-    <section id="about" class="about-section">
-        <div class="row">
 
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive" src="images/bg/me.jpg" draggable="false" alt="">
-            </div>
+    <div class="home-section-background" data-stellar-background-ratio="0.6">
+        <div class="display-table">
+            <div class="display-table-cell">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="header-text">
+                                <p>Hi</p>
+                                <h2><span class="typing"></span></h2>
 
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="about-me section-space-padding">
+                                <div class="margin-top-60">
+                                    <a class="button button-style button-style-icon fa fa-long-arrow-right smoth-scroll" href="#portfolio">View Portfolio</a>
+                                </div>
 
-                    <h2>About Me.</h2>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-
         </div>
-    </section>
+    </div>
 
-</main>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+</header>
+<!-- Home & Menu Section End-->
+
+
+
+
+
+
+
+
+
+
+<!-- All Javascript Plugins  -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/plugin.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0HAKwKinpoFKNGUwRBgkrKhF-sIqFUNA"></script>
+
+<!-- Main Javascript File  -->
+<script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 
