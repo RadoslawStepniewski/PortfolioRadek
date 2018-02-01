@@ -343,7 +343,25 @@ fieldset {
     color: #fff;
 }
 
+ /*About Me */
 
+.about-section {
+    overflow: hidden;
+    background-color: #F9F9F9;
+}
 
+.about-section img {
+    position: absolute;
+}
 
-/*}*/
+.about-me {}
+
+.about-me h2 {
+    padding: 0px 50px;
+}
+
+.about-me p {
+    padding: 50px;
+    font-size: 15px;
+}
+
