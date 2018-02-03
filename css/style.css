@@ -465,3 +465,20 @@ ul.portfolio li.active {
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
     cursor: inherit;
 }
+
+
+/* Footer */
+
+.footer-section {
+    background: #000;
+    padding: 80px 0px;
+    color: #f8f8f8;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
